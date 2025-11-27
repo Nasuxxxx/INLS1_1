@@ -1,0 +1,62 @@
+/* min-width:768px */
+
+div.all_places {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+div.single_place {
+    width: 48%;
+}
+
+div.single_place img {
+    height: 220px;
+    object-fit: cover;
+}
+
+div.newsletter_box {
+    max-width: 730px;
+    width: 100%;
+}
+
+section.newsletter {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+/* zmienić układy sekcji kontaktu i komentarzy na 3 kolumnowy + ograniczyć szerokość do wybranej maksymalnej np. 730 px */
+
+div.all_contacts {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 730px;
+    width: 730px;
+}
+
+div.single_contact {
+    width: 30%;
+    height: 30%;
+}
+
+div.all_comments {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 730px;
+    text-align: right;
+}
+
+div.single_comment {
+    width: 30%;
+}
+
+section.map iframe{
+    max-width: 730px;
+}

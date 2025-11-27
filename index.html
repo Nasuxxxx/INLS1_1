@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- tytuł strony -->
+    <title>Przewodnik po Seulu</title>
+    <!-- favicon -->
+    <link rel="shortcut icon" href="./img/icon.png" type="image/x-icon">
+    <!--font awesome-->
+    <script src="https://kit.fontawesome.com/2c4913e465.js" crossorigin="anonymous"></script>
+    <!--Font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=TikTok+Sans:opsz,wght@12..36,300..900&display=swap" rel="stylesheet">
+    <!--CSS-->
+    <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="stylesheet" media="screen and (min-width:768px)" href="./CSS/medium.css">
+    <link rel="stylesheet" media="screen and (min-width:992px)" href="./CSS/large.css">
+</head>
+
+<body>
+    <header class="flex_column_container">
+        <div>
+            <h1>Przewodnik po Korei Południowej</h1>
+            <h2>Zobacz z nami najpiękniejsze miejsca</h2>
+        </div>
+        <a href="#main" class="button">Czytaj więcej</a>
+    </header>
+    <main id="main">
+        <!--Miejsca do odwiedzenia-->
+        <section class="places_to_see flex_column_container">
+            <h2 class="h2">Miejsca warte odwiedzenia</h2>
+            <div class="all_places">
+                <div class="single_place flex_column_container">
+                    <h3>Klif Jusangjeolli</h3>
+                    <img src="./img/jusangjeolli-cliff-4810725_1280.jpg" alt="Klif w Jusangjeolli - widok z góry">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores quos fugit ipsum ipsam.
+                        Fugiat nihil, dolores eius voluptates animi corrupti dignissimos sit explicabo at eveniet
+                        voluptatem delectus, fuga quod accusamus.</p>
+                    <a href="https://en.wikipedia.org/wiki/Daepo_Jusangjeolli_Cliff" class="button">Dowiedz się więcej</a>
+                </div>
+                <div class="single_place flex_column_container">
+                    <h3>Forteca Haemieupseong</h3>
+                    <img src="./img/haemieupseong-953102_1280.jpg" alt="forteca w seosan - wrota">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores quos fugit ipsum ipsam.
+                        Fugiat nihil, dolores eius voluptates animi corrupti dignissimos sit explicabo at eveniet
+                        voluptatem delectus, fuga quod accusamus.</p>
+                    <a href="https://en.wikipedia.org/wiki/Haemieupseong" class="button">Dowiedz się więcej</a>
+                </div>
+                <div class="single_place flex_column_container">
+                    <h3>Świątynia Pŏpchu sa</h3>
+                    <img src="./img/songnisan-5309158_1280.jpg" alt="świątynia Pŏpchu sa">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores quos fugit ipsum ipsam.
+                        Fugiat nihil, dolores eius voluptates animi corrupti dignissimos sit explicabo at eveniet
+                        voluptatem delectus, fuga quod accusamus.</p>
+                    <a href="https://pl.wikipedia.org/wiki/P%C5%8Fpchu_sa" class="button">Dowiedz się więcej</a>
+                </div>
+                <div class="single_place flex_column_container">
+                    <h3>Pałac Gyeongbok</h3>
+                    <img src="./img/gyeongbok-palace-5837670_1280.jpg" alt="pałac Gyeongbok od boku">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores quos fugit ipsum ipsam.
+                        Fugiat nihil, dolores eius voluptates animi corrupti dignissimos sit explicabo at eveniet
+                        voluptatem delectus, fuga quod accusamus.</p>
+                    <a href="https://pl.wikipedia.org/wiki/Gyeongbokgung" class="button">Dowiedz się więcej</a>
+                </div>
+            </div>
+        </section>
+
+        <!--Sekcja newsletter-->
+        <section class="newsletter">
+            <div class="newsletter_box">
+                <h2>Newsletter</h2>
+                <p>Zapisz się do naszego newslettera by nie ominąć nowości</p>
+                <form action="">
+                    <div class="newsletter_input">
+                        <input type="text" placeholder="Podaj imię">
+                        <input type="email" placeholder="Podaj e-mail">
+                    </div>
+                    <div>
+                        <label for=""><input type="checkbox">Zapoznałem/am się z regulaminem i akceptuje go.</label>
+                    </div>
+                        <button class="button">Zapisz się!</button>
+                </form>
+            </div>
+        </section>
+
+        <!--Sekcja kontaktu-->
+        <section class="kontakt flex_column_container">
+            <h2 class="h2">Kontakt</h2>
+            <div class="all_contacts">
+                <div class="single_contact flex_column_container">
+                    <i class="fa-solid fa-building"></i>
+                    <p>ul. Kocia 3, 69-420 Gdańsk</p>
+                </div>
+                <div class="single_contact flex_column_container">
+                    <i class="fa-solid fa-envelope"></i>
+                    <p>kontakt@kontakt.pl</p>
+                </div>
+                <div class="single_contact flex_column_container">
+                    <i class="fa-solid fa-phone"></i>
+                    <p>692-137-420</p>
+                </div>
+            </div>
+        </section>
+
+        <!--Sekcja komentarzy-->
+        <section class="flex_column_container comments">
+            <h2 class="h2">Komentarze</h2>
+            <div class="all_comments">
+                <div class="flex_column_container single_comment">
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique eveniet ea laboriosam voluptate atque sunt non corporis voluptas soluta necessitatibus facilis, corrupti odio eaque, consectetur deserunt dolorem, asperiores at rem!</p>
+                    <p>Jan Kowalski</p>
+                </div>
+                <div class="flex_column_container single_comment">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod repellat laborum reiciendis corrupti assumenda delectus fuga obcaecati, et pariatur, illo quo asperiores. At maxime aspernatur reprehenderit nisi, provident consequatur ex?</p>
+                    <p>Zosia Nowak</p>
+                </div>
+                <div class="flex_column_container single_comment">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus deleniti maxime natus possimus non iure culpa impedit dolores molestiae ab aliquam libero recusandae facilis dolore laborum, nobis dicta vitae nisi.</p>
+                    <p>Katarzyna Lewandowska</p>
+                </div>
+            </div>
+        </section>
+
+        <!--Sekcja mapy-->
+        <section class="flex_column_container map">
+            <h2 class="h2">Zobacz atrakcje Korei Południowej</h2>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5002940.327743003!2d128.91335610591545!3d35.186466122864516!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x356455ebcb11ba9b%3A0x91249b00ba88db4b!2sKorea%20Po%C5%82udniowa!5e0!3m2!1spl!2spl!4v1761821154049!5m2!1spl!2spl" width="300" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+    </main>
+
+
+    <footer class="flex_column_container">
+        <div>
+            <p class="stopa">Obserwuj nas na:</p>
+            <a class="logo" href="https://www.facebook.com/?locale=pl_PL"><img src="./img/3225194_app_facebook_logo_media_popular_icon.png" alt="Logo Facebook"></a>
+            <a href="https://www.youtube.com/"><img src="./img/yt.png" alt="Logo Youtube"></a>
+            <a class="logo" href="https://www.instagram.com/"><img src="./img/ig.png" alt="Logo Instagram"></a>
+            <a class="logo" href="https://x.com/"><img src="./img/twt.png" alt="Logo Twitter"></a>
+            <a class="logo" href="https://www.tiktok.com/pl-PL/"><img src="./img/tt.png" alt="Logo Tiktok"></a>
+        </div>
+        <div>
+            <p class="stopa">Projekt WSB Merito Gdańsk 2025-2026</p>
+            <p class="stopa">Autor: Oliwia K.</p>
+        </div>
+    </footer>
+</body>
+
+</html>
