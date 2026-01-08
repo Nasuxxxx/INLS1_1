@@ -29,6 +29,37 @@
         <a href="#main" class="button">Czytaj więcej</a>
     </header>
     <main id="main">
+        <!--Selcja pogody-->
+        <section class="weather_section flex_column_container">
+            <h2>Sprawdź pogodę w Seulu</h2>
+            <div class="weather">
+                <div class="main_weather_info">
+                    <div class="sun">
+                        <div class="sunrise">
+                            <img src="./img/sunrise.png" alt="">
+                            <p class="sunrise_hour"></p>
+                        </div>
+                        <div class="sunset">
+                            <img src="./img/sunset.png" alt="">
+                            <p class="sunset_hour"></p>
+                        </div>
+                    </div>
+                    <div class="temp_info">
+                        <img src="" alt="" class="weather_img">
+                        <p class="temp"></p>
+                    </div>
+                    <p class="weather_description"></p>
+                </div>
+                <div class="rest_weather_info">
+                    <p>Temperatura odczuwalna: <span class="feels_like"></span></p>
+                    <p>Ciśnienie: <span class="pressure"></span></p>
+                    <p>Wilgotność: <span class="humidity"></span></p>
+                    <p>Prędkość wiatru: <span class="wind_speed"></span></p>
+                    <p>Zachmurzenie: <span class="clouds"></span></p>
+                    <p>Widoczność: <span class="visibility"></span></p>
+                </div>
+            </div>
+        </section>
         <!--Miejsca do odwiedzenia-->
         <section class="places_to_see flex_column_container">
             <h2 class="h2">Miejsca warte odwiedzenia</h2>
@@ -191,6 +222,7 @@
         </div>
     </footer>
 
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
     <script src="./script.js"></script>
 </body>
 
